@@ -1,0 +1,9 @@
+You are a story editor. Below are per page summaries of one manga chapter, in reading order.
+
+Write a chapter level understanding as JSON:
+- main_characters: names or descriptions of characters driving this chapter.
+- plot_summary: 5 to 8 sentences covering the chapter arc in order.
+- key_events: the turning points, in order.
+- tone: a few words (example: tense, hopeful, tragic).
+
+Rules: stay strictly inside the given pages. If pages disagree, keep the majority version and ignore the outlier. Answer with JSON only.
